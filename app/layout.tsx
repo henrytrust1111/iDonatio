@@ -13,7 +13,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "iDonatio",
-  description: "Do your business transaction here!!"
+  description: "Donate with ease and transparency",
 };
 
 export default function RootLayout({
