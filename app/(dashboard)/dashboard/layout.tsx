@@ -5,9 +5,9 @@
 import { AppWrapper, useMyContext } from "@/context";
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
-  const { setIsOpen } = useMyContext();
+  // const { setIsOpen } = useMyContext();
 
-  const toggleSidebar = () => setIsOpen((prev) => !prev);
+  // const toggleSidebar = () => setIsOpen((prev) => !prev);
 
   return (
     <div className="flex h-full w-full bg-gray-100">
