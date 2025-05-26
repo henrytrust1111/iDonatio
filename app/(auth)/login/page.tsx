@@ -11,7 +11,7 @@ const Login = () => {
   return (
     <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
       {/* Left Form Section */}
-      <div className="p-10 flex flex-col items-center justify-between w-full">
+      <div className="p-10 flex flex-col items-center md:justify-between gap-9 w-full">
         {/* Logo and Signup Link */}
         <div className="flex items-center justify-between w-full">
           <Image
