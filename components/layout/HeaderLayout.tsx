@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 
 function HeaderLayout({
   children
@@ -7,7 +7,7 @@ function HeaderLayout({
 }>) {
   return (
     <div className="w-full max-w-full">
-      <Header />
+      {/* <Header /> */}
       {children}
     </div>
   );
