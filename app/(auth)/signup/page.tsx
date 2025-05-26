@@ -13,7 +13,7 @@ const GetStarted: FC = () => {
       {/* Left Panel */}
       <div className="px-8 py-12 flex flex-col justify-start max-w-2xl mx-auto w-full !z-50 bg-white overflow-auto no-scrollbar">
         {/* Logo & Login Link */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-8 gap-4">
           <Image
             src="/logo.png"
             alt="iDonatio logo"

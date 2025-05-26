@@ -94,7 +94,7 @@ const Login = () => {
                 />
                 <span className="ml-2">Remember Me</span>
               </label>
-              <Link href="/forgot-password" className="text-sm text-blue-600">
+              <Link href="#" className="text-sm text-blue-600">
                 Forgot Password?
               </Link>
             </div>
