@@ -22,7 +22,7 @@ const GetStarted: FC = () => {
             className="object-contain"
           />
           <Link
-            href="/signup"
+            href="/login"
             className="text-primary font-semibold text-xs underline"
           >
             <span className="text-[#8E8E93] mr-[2px]">
@@ -185,7 +185,17 @@ const GetStarted: FC = () => {
               : "cursor-not-allowed"
           }`}
         >
-          Continue <span className="ml-2">→</span>
+          Continue{" "}
+          <span className="ml-2">
+            {" "}
+            <Image
+              src="/get-started/arrow-white.svg"
+              alt="iDonatio logo"
+              width={12}
+              height={12}
+              className="object-contain inline-block align-middle ml-1"
+            />
+          </span>
         </button>
       </div>
 

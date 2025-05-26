@@ -16,7 +16,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Event Parcel",
+  title: "iDonatio",
   description: "Do your business transaction here!!"
 };
 

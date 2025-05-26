@@ -105,7 +105,17 @@ const Login = () => {
               disabled
               className="w-full md:w-auto py-2 px-11 bg-[#D1D1D6] text-white font-medium rounded-[6px] flex justify-center items-center cursor-not-allowed opacity-50 mx-auto md:ml-auto md:mr-0"
             >
-              Log in <span className="ml-2">→</span>
+              Log in{" "}
+              <span className="ml-2">
+                {" "}
+                <Image
+                  src="/get-started/arrow-white.svg"
+                  alt="iDonatio logo"
+                  width={12}
+                  height={12}
+                  className="object-contain inline-block align-middle ml-1"
+                />
+              </span>
             </button>
           </form>
         </div>
