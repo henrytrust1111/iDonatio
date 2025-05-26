@@ -2,7 +2,8 @@
 
 // import HeaderDashboard from "@/components/dashboard/HeaderDashboard";
 // import { Sidebar } from "@/components/dashboard/Sidebar";
-import { AppWrapper, useMyContext } from "@/context";
+// import { AppWrapper, useMyContext } from "@/context";
+import { AppWrapper } from "@/context";
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
   // const { setIsOpen } = useMyContext();
