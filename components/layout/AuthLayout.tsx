@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, ReactNode } from "react";
-import Container from "../dashboard/Container";
+// import Container from "../dashboard/Container";
 import HeaderLayout from "./HeaderLayout";
 
 interface AuthLayoutProps {
@@ -18,7 +18,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children }) => {
   }, []);
 
   if (token) {
-    return <Container>{children}</Container>;
+    // return <Container>{children}</Container>;
   } else {
     return <HeaderLayout>{children}</HeaderLayout>;
   }
