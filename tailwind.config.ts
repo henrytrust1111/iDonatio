@@ -11,7 +11,7 @@ export default {
       colors: {
         primary: {
           "100": "#751423",
-          DEFAULT: "#751423",
+          DEFAULT: "#2962FF",
         },
         secondary: "#FBE843",
         black: {
@@ -37,6 +37,7 @@ export default {
       },
       boxShadow: {
         100: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+         'input': '0px 1px 2px 0px #1018280D',
         // 200: "2px 2px 0px 2px rgb(0, 0, 0)",
         // 300: "2px 2px 0px 2px rgb(238, 43, 105)"
       }
