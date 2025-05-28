@@ -52,7 +52,7 @@ const Login = () => {
                 id="email"
                 type="email"
                 placeholder="Email address"
-                className="w-full px-4 py-2 border border-[#D0D5DD] rounded-[8px] focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-input"
+                className="w-full px-4 py-2 border border-[#D0D5DD] rounded-[8px] focus:outline-none focus:ring-2 focus:ring-[#31A14D] shadow-input"
               />
             </div>
 
@@ -69,7 +69,7 @@ const Login = () => {
                   id="password"
                   type={showPassword ? "text" : "password"}
                   placeholder="Password"
-                  className="w-full px-4 py-2 border border-[#D0D5DD] rounded-[8px] pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-input"
+                  className="w-full px-4 py-2 border border-[#D0D5DD] rounded-[8px] pr-10 focus:outline-none focus:ring-2 focus:ring-[#31A14D] shadow-input"
                 />
                 <button
                   type="button"
@@ -94,7 +94,7 @@ const Login = () => {
                 />
                 <span className="ml-2">Remember Me</span>
               </label>
-              <Link href="#" className="text-sm text-blue-600">
+              <Link href="/forgot-password" className="text-sm text-blue-600">
                 Forgot Password?
               </Link>
             </div>
