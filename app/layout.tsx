@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description: "Donate with ease and transparency"
 };
 
+
 export default function RootLayout({
   children
 }: Readonly<{
