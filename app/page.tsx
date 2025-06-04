@@ -1,7 +1,7 @@
 "use client";
 
+import { ComingSoon } from "./../components/ComingSoon";
 import React from "react";
-import { ComingSoon } from "@/components/ComingSoon";
 
 const Home = () => {
   return (

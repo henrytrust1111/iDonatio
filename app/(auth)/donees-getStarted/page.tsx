@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
-import GetStartedHeaderLayout from "@/components/getStarted/GetStartedHeaderLayout";
+import GetStartedHeaderLayout from "../../../components/getStarted/GetStartedHeaderLayout";
 
 const steps = [
   {

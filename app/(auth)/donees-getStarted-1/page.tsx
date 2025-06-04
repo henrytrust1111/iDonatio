@@ -4,7 +4,7 @@ import { AiOutlineInfoCircle } from "react-icons/ai";
 import { MdOutlineAdd } from "react-icons/md";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { BiChevronDown } from "react-icons/bi";
-import GetStartedHeaderLayout from "@/components/getStarted/GetStartedHeaderLayout";
+import GetStartedHeaderLayout from "../../../components/getStarted/GetStartedHeaderLayout";
 import Image from "next/image";
 import usePlacesAutocomplete, {
   getGeocode,
