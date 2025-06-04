@@ -29,6 +29,22 @@ export default function RootLayout({
           src={`https://maps.googleapis.com/maps/api/js?key=AIzaSyDSJLDP8ehodqfX8FEFjhfOyp7NNniFUa4&libraries=places`}
           async
         ></script>
+
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ff69b4" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+
+        {/* Additional PWA meta tags */}
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="iDonatio" />
+        <meta name="application-name" content="iDonatio" />
+        <meta name="msapplication-TileColor" content="#ff69b4" />
+        <meta
+          name="msapplication-TileImage"
+          content="/logo.png"
+        />
       </head>
       <body className="w-full max-w-full">
         <ProgressBarProvider>{children}</ProgressBarProvider>
