@@ -14,6 +14,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "iDonatio",
   description: "Donate with ease and transparency"
+  manifest: "/manifest.json",
 };
 
 
