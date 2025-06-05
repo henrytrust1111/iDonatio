@@ -68,7 +68,7 @@ const GetStarted2: FC = () => {
       <div className="px-8 overflow-auto bg-white no-scrollbar">
         <div className="max-w-lg mx-auto">
           {/* Logo and Login */}
-          <div className="flex items-center justify-between mb-8 bg-white z-20 sticky top-0 pt-12 pb-4">
+          <div className="flex items-center justify-between mb-8 bg-white z-20 sticky top-0 pt-12 pb-4 gap-4">
             <Image
               src="/logo.png"
               alt="iDonatio Logo"
