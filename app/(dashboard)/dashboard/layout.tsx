@@ -1,6 +1,5 @@
 "use client";
 import { AppWrapper } from "../../../context";
-import "/global.css";
 
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
