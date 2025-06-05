@@ -4,9 +4,11 @@ import React, { useState, FC } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
+import { useRouter } from "next-nprogress-bar";
 
 const GetStarted: FC = () => {
   const [choice, setChoice] = useState<"charity" | "donee" | null>(null);
+  const router = useRouter();
 
   return (
     <div className="h-screen grid grid-cols-1 md:grid-cols-2">
@@ -179,6 +181,11 @@ const GetStarted: FC = () => {
         <button
           type="button"
           disabled={!choice}
+          onClick={() => {
+            if (choice) {
+              router.push("/getStarted-2");
+            }
+          }}
           className={`w-full md:w-auto py-2 px-11 bg-[#D1D1D6] text-white font-medium rounded-[6px] flex justify-center items-center cursor-not-allowed mx-auto md:ml-auto md:mr-0 transition-opacity ${
             choice
               ? "bg-primary text-white hover:bg-blue-700 cursor-pointer"
