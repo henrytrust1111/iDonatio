@@ -305,7 +305,7 @@ const GetStarted2: FC = () => {
             </div>
 
             {/* Navigation Buttons unchanged ... */}
-            <div className="flex items-center justify-between mt-8 bg-white sticky bottom-0 z-20 pt-4 pb-12 px-1 border-t">
+            <div className="flex items-center justify-between gap-4 mt-8 bg-white sticky bottom-0 z-20 pt-4 pb-12 px-1 border-t">
               <button
                 type="button"
                 onClick={() => history.back()}
@@ -317,7 +317,7 @@ const GetStarted2: FC = () => {
               <button
                 type="submit"
                 disabled={!isFormValid}
-                className="w-full md:w-auto py-2 px-11 bg-[#D1D1D6] text-white font-medium rounded-[6px] flex justify-center items-center cursor-not-allowed opacity-50 mx-auto md:ml-auto md:mr-0"
+                className="w-full md:w-auto py-2 px-3 md:px-11 bg-[#D1D1D6] text-white font-medium rounded-[6px] flex justify-center items-center cursor-not-allowed opacity-50 mx-auto md:ml-auto md:mr-0"
               >
                 Continue{" "}
                 <span className="ml-2">
