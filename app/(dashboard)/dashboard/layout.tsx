@@ -1,5 +1,5 @@
 "use client";
-import { AppWrapper } from "@/context";
+import { AppWrapper } from "../../../context";
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
   // const { setIsOpen } = useMyContext();

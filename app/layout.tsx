@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
-import ProgressBarProvider from "@/components/ProgressBarProvider";
+import ProgressBarProvider from "../components/ProgressBarProvider";
 import { Open_Sans } from "next/font/google";
 
 // Load all font weights
@@ -13,7 +13,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "iDonatio",
-  description: "Donate with ease and transparency"
+  description: "Donate with ease and transparency",
   manifest: "/manifest.json",
 };
 
